@@ -12,7 +12,7 @@ Token addresses can be configured in brownie-config file and WannaCompounder.sol
 
 Currently configured for wnear-aurora pair.
 
-Deployed here - https://explorer.mainnet.aurora.dev/address/0x48F9957dB7eb9B58A54baF31C40d4c06b1C05f26/contracts
+Deployed here - [Dapp link Aurora Explorer](https://explorer.mainnet.aurora.dev/address/0x48F9957dB7eb9B58A54baF31C40d4c06b1C05f26/contracts)
 
 **Do not deposit lp, only owner can withdraw**
 
