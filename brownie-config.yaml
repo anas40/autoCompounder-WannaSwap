@@ -1,0 +1,39 @@
+dotenv: .env
+networks:
+  aurora-mainnet:
+    farm_pid: 8
+    near_aurora_lp_token_address: "0x7E9EA10E5984a09D19D05F31ca3cB65BB7df359d"
+    wanna_farm_address: "0x2B2E72C232685FC4D350EAA92F39F6F8AD2E1593"
+    wanna_router_v2_address: "0xA3A1EF5AE6561572023363862E238AFA84C72EF5"
+    wanna_token_address: "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22"
+    aurora_token_address: "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79"
+    wanna_aurora_path:
+      [
+        "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22",
+        "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+      ]
+    wanna_near_path:
+      [
+        "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22",
+        "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
+      ]
+  aurora-fork:
+    farm_pid: 8
+    near_aurora_lp_token_address: "0x7E9EA10E5984a09D19D05F31ca3cB65BB7df359d"
+    wanna_farm_address: "0x2B2E72C232685FC4D350EAA92F39F6F8AD2E1593"
+    wanna_router_v2_address: "0xA3A1EF5AE6561572023363862E238AFA84C72EF5"
+    wanna_token_address: "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22"
+    aurora_token_address: "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79"
+    wnear_token_address: "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d"
+    wanna_aurora_path:
+      [
+        "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22",
+        "0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79",
+      ]
+    wanna_near_path:
+      [
+        "0x7faA64Faf54750a2E3eE621166635fEAF406Ab22",
+        "0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d",
+      ]
+    cmd_settings:
+      unlock: ""
